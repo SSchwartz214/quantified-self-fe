@@ -9,8 +9,8 @@
 <body>
   <div class="topnav">
     <a href="#foods">FOODS</a>
-    <a href="#diary">DIARY</a>
-    <a href="index.html">MEAL TRACKER</a>
+    <a href="meals.html">MEAL TRACKER</a>
+    <a href="#recipes">RECIPES</a>
   </div>
 
   <h2>Manage Your Foods</h2>
@@ -27,43 +27,20 @@
         </div>
       </form>
     </article>
-
+    
     <article id='food-index-right'>
       <h4>Foods</h4>
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Calories</th>
-        </tr>
-        <tr>
-          <td>Meatloaf</td>
-          <td>400</td>
-        </tr>
-        <tr>
-          <td>Taco</td>
-          <td>250</td>
-        </tr>
-        <tr>
-          <td>Banana</td>
-          <td>200</td>
-        </tr>
-        <tr>
-          <td>Apple</td>
-          <td>140</td>
-        </tr>
-        <tr>
-          <td>Hambuger</td>
-          <td>500</td>
-        </tr>
-        <tr>
-          <td>Granola Bar</td>
-          <td>120</td>
-        </tr>
+      <table id="foods">
+          <tr>
+            <th class="name">Name</th>
+            <th class="calories">Calories</th>
+          </tr>
       </table>
     </article>
   </section>
 
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src="main.bundle.js"></script>
+  <script type="text/javascript" src="./lib/foods.js"></script>
 </body>
 </html>
