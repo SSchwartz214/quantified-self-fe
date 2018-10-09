@@ -7,15 +7,66 @@
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Quattrocento:400,700" rel="stylesheet">  </head>
   <body>
     
-    <div class="topnav">
-        <a href="#foods">FOODS</a>
-        <a href="#diary">DIARY</a>
-        <a href="index.html">MEAL TRACKER</a>
-      </div>
+<body>
+ <div class="topnav">
+    <a href="#foods">FOODS</a>
+    <a href="#diary">DIARY</a>
+    <a href="index.html">MEAL TRACKER</a>
+  </div>
 
-      <script
-        src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
-      </script>
-      <script src="main.bundle.js"></script>
-  </body>
+  <h2>Manage Your Foods</h2>
+
+  <section id='food-index-main'>
+    <article id='food-index-left'>
+      <h4>Add Food</h4>
+      <form id="add-food-form" action="index.html" method="post">
+        <input type="text" name="name" value="" placeholder="Enter name of food" class="input-field">
+        <input type="number" name="caloires" value="" placeholder="Enter calories" min="0" step="1" class="input-field">
+        <div id="add-food-form-buttons">
+          <input type="submit" value="Add Food" class="button">
+          <input type="reset" name="" value="Clear" class="button">
+        </div>
+      </form>
+    </article>
+
+    <article id='food-index-right'>
+      <h4>Foods</h4>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Calories</th>
+        </tr>
+        <tr>
+          <td>Meatloaf</td>
+          <td>400</td>
+        </tr>
+        <tr>
+          <td>Taco</td>
+          <td>250</td>
+        </tr>
+        <tr>
+          <td>Banana</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td>Apple</td>
+          <td>140</td>
+        </tr>
+        <tr>
+          <td>Hambuger</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>Granola Bar</td>
+          <td>120</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+  <a href="index.html"><button class="button">Meal Diary</button></a>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="main.bundle.js"></script>
+</body>
 </html>
