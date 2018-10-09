@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    main: "./lib/index.js",
-    test: "mocha!./test/index.js"
+    main: "./lib/foods.js",
+    test: "mocha!./test/foods.js"
   },
   output: {
     path: __dirname,
