@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Quantified Self - Manage Foods</title>
-    <link rel="stylesheet" href="./lib/foods.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Quattrocento:400,700" rel="stylesheet">  </head>
-  <body>
-    
+<head>
+  <meta charset="utf-8">
+  <title>Quantified Self - Manage Foods</title>
+  <link rel="stylesheet" href="./lib/foods.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Quattrocento:400,700" rel="stylesheet">
+</head>
 <body>
- <div class="topnav">
+  <div class="topnav">
     <a href="#foods">FOODS</a>
     <a href="meals.html">MEAL TRACKER</a>
     <a href="#recipes">RECIPES</a>
@@ -19,9 +18,10 @@
   <section id='food-index-main'>
     <article id='food-index-left'>
       <h4>Add Food</h4>
+      <form id="add-food-form" action="index.html" method="post">
       <form id="add-food-form" action="foods.html" method="post">
         <input type="text" id="nameField" name="name" value="" placeholder="Enter name of food" class="input-field">
-        <input type="number" id="caloriesField" name="caloires" value="" placeholder="Enter calories" min="0" step="1" class="input-field">
+        <input type="number" id="caloriesField" name="calories" value="" placeholder="Enter calories" min="0" step="1" class="input-field">
         <div id="add-food-form-buttons">
           <input type="submit" id="addFood-btn" value="Add Food" class="button">
           <input type="reset" name="" value="Clear" class="button">
