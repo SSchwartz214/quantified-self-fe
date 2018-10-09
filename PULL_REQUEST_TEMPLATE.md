@@ -1,9 +1,27 @@
-#### Pivotal URL:
+- [] Implemented
+- [] Reviewed
 
-#### What does this PR do?
+# Neccesary checkmarks:
+- [] The code will run locally
 
-#### Where should the reviewer start?
+## Type of change
+- [] New feature
+- [] Bug Fix
+- [] Refactor
 
-#### Any additional context you want to provide?
+# Implements/Fixes:
+* description
+* Closes #
 
-#### Screenshots (if appropriate)
+# Check the correct boxes
+
+- [] This broke nothing
+- [] This broke some stuff
+- [] This broke everything
+
+# Checklist:
+
+- [] My code has no unused/commented out code
+- [] I have reviewed my code
+- [] I have commented my code, particularly in hard-to-understand areas
+- [] I have fully tested my code
