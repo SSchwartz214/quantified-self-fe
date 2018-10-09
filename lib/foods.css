@@ -1,3 +1,27 @@
+body {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #F4F4F4;
+}
+
+tr:hover {
+  background-color: #BDEDFF;
+}
+
 .topnav {
     background-color: #8D8741;
     overflow: hidden;
@@ -19,30 +43,7 @@
     background-color: #ddd;
     color: black;
     opacity: 0.3
-      
-body {
-  text-align: center;
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #F4F4F4;
-}
-
-tr:hover {
-  background-color: #BDEDFF;
-}
+}      
 
 .input-field {
   width: 400px;
