@@ -85,3 +85,7 @@ tr:hover {
 #food-index-right {
   width: 100%;
 }
+
+#spoiler{
+  display: none;
+ }
