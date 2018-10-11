@@ -18,7 +18,6 @@
   <section id='food-index-main'>
     <article id='food-index-left'>
       <h4>Add Food</h4>
-      <form id="add-food-form" action="index.html" method="post">
       <form id="add-food-form" action="foods.html" method="post">
         <input type="text" id="nameField" name="name" value="" placeholder="Enter name of food" class="input-field">
         <input type="number" id="caloriesField" name="calories" value="" placeholder="Enter calories" min="0" step="1" class="input-field">
@@ -28,16 +27,18 @@
         </div>
       </form>
     </article>
-
-    <div id="spoiler" role="aria-hidden">
-        <form action="javascript:void(0);" method="POST" id="saveEdit">
-        <input type="text" id="edit-name">
-        <input type="submit" value="Edit" /> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
-        </form>
-       </div>
     
     <article id='food-index-right'>
       <h4>Foods</h4>
+      <form id="edit-food-form" action="foods.html" method="post">
+          <h4>Edit Food</h4>
+          <input type="text" id="editNameField" name="name" value="" placeholder="Edit name" class="input-field">
+          <input type="number" id="editCaloriesField" name="calories" value="" placeholder="Edit calories" min="0" step="1" class="input-field">
+          <div id="edit-food-form-buttons">
+              <input type="submit" id="editFood-btn" value="Edit Food" class="button">
+              <input type="reset" name="" value="Clear" class="button">
+            </div>    
+      </form>
       <table id="foods">
           <tr>
             <th class="name">Name</th>
