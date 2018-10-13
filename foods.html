@@ -7,47 +7,49 @@
   <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Quattrocento:400,700" rel="stylesheet">
 </head>
 <body>
-  <div class="topnav">
-    <a href="index.html">HOME</a> 
-    <a href="foods.html">FOODS</a>
-    <a href="meals.html">MEAL TRACKER</a>
-    <a href="#recipes">RECIPES</a>
+  <div class="bg">
+    <div class="topnav">
+      <a href="index.html">HOME</a> 
+      <a href="foods.html">FOODS</a>
+      <a href="meals.html">MEAL TRACKER</a>
+      <a href="#recipes">RECIPES</a>
+    </div>
+
+    <h2>Manage Your Foods</h2>
+
+    <section id='food-index-main'>
+      <article id='food-index-left'>
+        <h3>Add Food</h3>
+        <form id="add-food-form" action="foods.html" method="post">
+          <input type="text" id="nameField" name="name" value="" placeholder="Enter name of food" class="input-field">
+          <input type="number" id="caloriesField" name="calories" value="" placeholder="Enter calories" min="0" step="1" class="input-field">
+          <div id="add-food-form-buttons">
+            <input type="submit" id="addFood-btn" value="Add Food" class="button">
+            <input type="reset" name="" value="Clear" class="button">
+          </div>
+        </form>
+      </article>
+      
+      <article id='food-index-right'>
+        <h4>Foods</h4>
+        <form id="edit-food-form" action="foods.html" method="post">
+            <h4 id="editTitle">Edit Food</h4>
+            <input type="text" id="editNameField" name="name" value="" placeholder="Edit name" class="input-field">
+            <input type="number" id="editCaloriesField" name="calories" value="" placeholder="Edit calories" min="0" step="1" class="input-field">
+            <div id="edit-food-form-buttons">
+                <input type="submit" id="editFood-btn" value="Edit Food" class="button">
+                <input type="reset" name="" value="Clear" class="button">
+              </div>    
+        </form>
+        <table id="foods">
+            <tr>
+              <th class="name">Name</th>
+              <th class="calories">Calories</th>
+            </tr>
+        </table>
+      </article>
+    </section>
   </div>
-
-  <h2>Manage Your Foods</h2>
-
-  <section id='food-index-main'>
-    <article id='food-index-left'>
-      <h4>Add Food</h4>
-      <form id="add-food-form" action="foods.html" method="post">
-        <input type="text" id="nameField" name="name" value="" placeholder="Enter name of food" class="input-field">
-        <input type="number" id="caloriesField" name="calories" value="" placeholder="Enter calories" min="0" step="1" class="input-field">
-        <div id="add-food-form-buttons">
-          <input type="submit" id="addFood-btn" value="Add Food" class="button">
-          <input type="reset" name="" value="Clear" class="button">
-        </div>
-      </form>
-    </article>
-    
-    <article id='food-index-right'>
-      <h4>Foods</h4>
-      <form id="edit-food-form" action="foods.html" method="post">
-          <h4 id="editTitle">Edit Food</h4>
-          <input type="text" id="editNameField" name="name" value="" placeholder="Edit name" class="input-field">
-          <input type="number" id="editCaloriesField" name="calories" value="" placeholder="Edit calories" min="0" step="1" class="input-field">
-          <div id="edit-food-form-buttons">
-              <input type="submit" id="editFood-btn" value="Edit Food" class="button">
-              <input type="reset" name="" value="Clear" class="button">
-            </div>    
-      </form>
-      <table id="foods">
-          <tr>
-            <th class="name">Name</th>
-            <th class="calories">Calories</th>
-          </tr>
-      </table>
-    </article>
-  </section>
 
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src="./lib/foods.js"></script>
