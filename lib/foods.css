@@ -4,9 +4,10 @@ body {
 }
 
 table {
-    font-family: arial, sans-serif;
+  font-family: 'Quattrocento', serif;
     border-collapse: collapse;
     width: 100%;
+    background-color: #FFFF
 }
 
 td, th {
@@ -15,12 +16,22 @@ td, th {
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #F4F4F4;
+tr:hover {
+  background-color: #FBEEC1;
 }
 
-tr:hover {
-  background-color: #BDEDFF;
+h2 {
+  font-family: 'Cinzel', serif;
+}
+
+h3 {
+  font-family: 'Quattrocento', serif;
+}
+
+h4 {
+  font-family: 'Quattrocento', serif;
+  background-color: #8D8741;
+  margin: 0px;
 }
 
 .topnav {
@@ -44,7 +55,15 @@ tr:hover {
     background-color: #ddd;
     color: black;
     opacity: 0.3
-}      
+}   
+ 
+.bg { 
+  background-image: url("bg-secondary.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
 
 .input-field {
   width: 400px;
@@ -57,6 +76,8 @@ tr:hover {
   height: 30px;
   border-radius: 25px;
   border: 0px;
+  font-family: 'Quattrocento', serif;
+  font-weight: 700;
 }
 
 .button:hover {
@@ -64,10 +85,35 @@ tr:hover {
   cursor: pointer;
 }
 
+.removeFood-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(175, 76, 76);
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.removeFood-btn:hover {
+  background-color: rgb(175, 76, 76);
+  cursor: pointer;
+}
+
+.showEditForm-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.showEditForm-btn:hover {
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
 #food-index-main {
   display: flex;
 }
-
 
 #add-food-form {
   display: flex;
