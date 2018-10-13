@@ -49,3 +49,18 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.links a:link {
+    font-family: 'Quattrocento', serif;
+    background-color: #FBEEC1;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.links a:hover, a:active {
+    background-color: #BC986A;
+}

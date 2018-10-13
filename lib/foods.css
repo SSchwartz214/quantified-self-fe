@@ -76,6 +76,8 @@ h4 {
   height: 30px;
   border-radius: 25px;
   border: 0px;
+  font-family: 'Quattrocento', serif;
+  font-weight: 700;
 }
 
 .button:hover {
@@ -88,6 +90,7 @@ h4 {
   color: black;
   border: 2px solid rgb(175, 76, 76);
   border-radius: 12px;
+  font-weight: 700;
 }
 
 .removeFood-btn:hover {
@@ -100,6 +103,7 @@ h4 {
   color: black;
   border: 2px solid #4CAF50;
   border-radius: 12px;
+  font-weight: 700;
 }
 
 .showEditForm-btn:hover {
