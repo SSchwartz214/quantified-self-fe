@@ -55,15 +55,15 @@ h4 {
     background-color: #ddd;
     color: black;
     opacity: 0.3
-}   
- 
-.bg { 
+}
+
+.bg {
   background-image: url("bg-secondary.jpeg");
-  height: 100%; 
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}  
+}
 
 .input-field {
   width: 400px;
@@ -124,7 +124,7 @@ h4 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
