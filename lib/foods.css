@@ -11,10 +11,17 @@ table {
     background-color: #FFFF
 }
 
-td, th {
+td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: #F4F4F4;
 }
 
 tr:hover {
@@ -23,16 +30,11 @@ tr:hover {
 
 h2 {
   font-family: 'Cinzel', serif;
+  text-decoration: underline;
 }
 
 h3 {
   font-family: 'Quattrocento', serif;
-}
-
-h4 {
-  font-family: 'Quattrocento', serif;
-  background-color: #8D8741;
-  margin: 0px;
 }
 
 .topnav {
@@ -79,6 +81,8 @@ h4 {
   border: 0px;
   font-family: 'Quattrocento', serif;
   font-weight: 700;
+  box-shadow: 5px 5px grey;
+  margin-top: 10px;
 }
 
 .button:hover {
