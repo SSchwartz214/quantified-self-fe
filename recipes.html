@@ -12,5 +12,33 @@
       <a href="meals.html">MEAL TRACKER</a>
       <a href="recipes.html">RECIPES</a>
     </div>
+
+    <h2>Recipe Generator</h2>
+
+    <section id="recipes-main">
+      <article id="recipes-main-left">
+        <h3>Select Foods</h3>
+        <div>
+          <table id="all-foods">
+            <tr>
+              <th></th>
+              <th>Name</th>
+              <th>Calories</th>
+            </tr>
+          </table>
+        </div>
+      </article>
+      <article id="recipes-main-right">
+        <button type="button" name="button" class="button" id="generate-recipes-button">Generate Recipes with Yummly</button>
+        <table id="recipes-table">
+          <tbody>
+          </tbody>
+        </table>
+      </article>
+    </section>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="main.bundle.js"></script>
+    <script type="text/javascript" src="./lib/recipes.js"></script>
   </body>
 </html>

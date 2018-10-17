@@ -3,6 +3,29 @@ body {
   margin: 0px;
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: #F4F4F4;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: #BDEDFF;
+}
+
 .topnav {
   background-color: #8D8741;
   overflow: hidden;
@@ -24,4 +47,34 @@ body {
   background-color: #ddd;
   color: black;
   opacity: 0.3
+}
+
+.button {
+  background-color: #FBEEC1;
+  width: 200px;
+  height: 30px;
+  border-radius: 25px;
+  border: 0px;
+  margin: 10px 10px 10px 10px;
+}
+
+.button:hover {
+  background-color: #BC986A;
+  cursor: pointer;
+}
+
+#recipes-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#recipes-main-left {
+  margin: 0px 20px 0px 20px;
+  width: 90%;
+}
+
+#recipes-main-right {
+  margin: 0px 20px 0px 20px;
+  width: 90%;
 }
