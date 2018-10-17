@@ -1,10 +1,11 @@
-body {
+body, html {
   text-align: center;
   margin: 0px;
+  height: 100%
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: 'Quattrocento', serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -24,6 +25,14 @@ td {
 
 tr:hover {
   background-color: #BDEDFF;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+}
+
+h4 {
+  font-family: 'Quattrocento', serif;
 }
 
 .topnav {
@@ -55,6 +64,8 @@ tr:hover {
 }
 
 .button {
+  font-family: 'Quattrocento', serif;
+  font-weight: 700;
   background-color: #FBEEC1;
   width: 200px;
   height: 30px;
@@ -65,6 +76,19 @@ tr:hover {
 
 .button:hover {
   background-color: #BC986A;
+  cursor: pointer;
+}
+
+.remove-food-button {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(175, 76, 76);
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.remove-food-button:hover {
+  background-color: rgb(175, 76, 76);
   cursor: pointer;
 }
 

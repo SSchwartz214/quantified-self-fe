@@ -4,7 +4,7 @@ body {
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: 'Quattrocento', serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -20,6 +20,14 @@ td {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+}
+
+h3 {
+  font-family: 'Quattrocento', serif;
 }
 
 tr:hover {
@@ -50,6 +58,8 @@ tr:hover {
 }
 
 .button {
+  font-family: 'Quattrocento', serif;
+  font-weight: 700;
   background-color: #FBEEC1;
   width: 200px;
   height: 30px;

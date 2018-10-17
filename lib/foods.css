@@ -1,10 +1,11 @@
-body {
+body, html {
     text-align: center;
     margin: 0px;
+    height: 100%
 }
 
 table {
-  font-family: 'Quattrocento', serif;
+    font-family: 'Quattrocento', serif;
     border-collapse: collapse;
     width: 100%;
     background-color: #FFFF
