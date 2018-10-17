@@ -49,7 +49,7 @@ Once the server is running, visit in your browser:
 
 * `http://localhost:8080/` to run your application.
 
-You will need to make sure that your Quantified Self API is also running at `https://quantified-self-express-be.herokuapp.com/`
+You will need to make sure that your Quantified Self API is also running at `https://quantified-self-express-be.herokuapp.com`
 
 ## GitHub Pages Setup
 
