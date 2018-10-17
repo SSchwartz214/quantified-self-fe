@@ -67,7 +67,7 @@
 	};
 
 	var getFoods = function getFoods() {
-	  $('#foods').html('');
+	  $('#foodInfo').html('');
 	  fetch(baseUrl + '/api/v1/foods').then(handleResponse).then(getEachFood).catch(errorLog);
 	};
 
@@ -78,7 +78,7 @@
 	};
 
 	var appendFood = function appendFood(food) {
-	  $('#foods').append('\n    <tr>\n      <td id=' + food.id + ' class="name">' + food.name + '</td>\n      <td id=' + food.id + ' class="calories">' + food.calories + '</td>\n      <td><button type="button" id=' + food.id + ' class="removeFood-btn">Remove</button></td>\n      <td><button type="button" id=' + food.id + ' class="showEditForm-btn">Edit</button></td>\n    </tr>\n    ');
+	  $('#foods > tbody:last-child').append('\n    <tr>\n      <td id=' + food.id + ' class="name">' + food.name + '</td>\n      <td id=' + food.id + ' class="calories">' + food.calories + '</td>\n      <td class="food-btns"><button type="button" id=' + food.id + ' class="removeFood-btn">Remove</button>\n      <button type="button" id=' + food.id + ' class="showEditForm-btn">Edit</button></td>\n    </tr>\n    ');
 	};
 
 	var removeFood = function removeFood(event) {
@@ -118,6 +118,9 @@
 	  var calories = $('#editCaloriesField').val();
 
 	  patchFood({ food: { name: '' + name, calories: '' + calories } });
+
+	  foodName = $('.name#' + foodId).text('' + name);
+	  foodCalories = $('#' + foodId + '.calories').text('' + calories);
 	  resetEditForm();
 	};
 
@@ -128,7 +131,7 @@
 	};
 
 	var patchFood = function patchFood(editedFoodInfo) {
-	  fetch(baseUrl + '/api/v1/foods/' + foodId, editFoodPayload(editedFoodInfo)).then(handleResponse).then(getFoods).catch(errorLog);
+	  fetch(baseUrl + '/api/v1/foods/' + foodId, editFoodPayload(editedFoodInfo)).then(handleResponse).catch(errorLog);
 	};
 
 	var editFoodPayload = function editFoodPayload(body) {
