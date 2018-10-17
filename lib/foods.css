@@ -100,7 +100,9 @@ h3 {
 
 .removeFood-btn:hover {
   background-color: rgb(175, 76, 76);
+  transition: 0.3s;
   cursor: pointer;
+  color: #FFFF;
 }
 
 .showEditForm-btn {
@@ -113,7 +115,9 @@ h3 {
 
 .showEditForm-btn:hover {
   background-color: #4CAF50;
+  transition: 0.3s;
   cursor: pointer;
+  color: #FFFF;
 }
 
 .food-btns {
@@ -144,7 +148,4 @@ h3 {
 
 #edit-food-form{
   display: none;
- }
-
- #all-foods {
  }
