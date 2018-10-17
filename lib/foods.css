@@ -112,6 +112,11 @@ h4 {
   cursor: pointer;
 }
 
+.food-btns {
+  display: flex;
+  justify-content: space-around;
+}
+
 #food-index-main {
   display: flex;
 }
