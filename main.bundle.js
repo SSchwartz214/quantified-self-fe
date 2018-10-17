@@ -46,7 +46,7 @@
 
 	'use strict';
 
-	var baseUrl = 'http://localhost:3000';
+	var baseUrl = 'https://quantified-self-express-be.herokuapp.com/';
 
 	var handleResponse = function handleResponse(response) {
 	  return response.json().then(function (json) {
