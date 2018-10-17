@@ -1,3 +1,7 @@
+html {
+  background-image: url("bg-secondary.jpeg");
+}
+
 body {
   text-align: center;
   margin: 0px;
@@ -16,6 +20,10 @@ th {
   background-color: #F4F4F4;
 }
 
+tr {
+  background-color: white;
+}
+
 td {
   border: 1px solid #dddddd;
   text-align: left;
@@ -24,6 +32,7 @@ td {
 
 h2 {
   font-family: 'Cinzel', serif;
+  text-decoration: underline;
 }
 
 h3 {
@@ -31,7 +40,8 @@ h3 {
 }
 
 tr:hover {
-  background-color: #BDEDFF;
+  background-color: #FBEEC1;
+
 }
 
 .topnav {
@@ -73,6 +83,10 @@ tr:hover {
   cursor: pointer;
 }
 
+.recipe-rating {
+  text-align: center;
+}
+
 #recipes-main {
   display: flex;
   flex-direction: row;
@@ -87,4 +101,11 @@ tr:hover {
 #recipes-main-right {
   margin: 0px 20px 0px 20px;
   width: 90%;
+}
+
+#generate-recipes-button{
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  box-shadow: 5px 5px grey;
 }
