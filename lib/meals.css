@@ -115,6 +115,10 @@ h3 {
   text-align: center;
 }
 
+.add-food-button {
+  font-size: 16px;
+}
+
 #meals-index-main {
   display: flex;
 }

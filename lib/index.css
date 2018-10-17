@@ -8,6 +8,11 @@ h1 {
     margin: 0px 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .main-header {
     font-family: 'Cinzel', serif;
     color: #FBEEC1;
@@ -42,9 +47,9 @@ h1 {
     opacity: 0.3
 }
 
-.bg { 
+.bg {
     background-image: url("QS_bg.jpeg");
-    height: 100%; 
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +59,7 @@ h1 {
     font-family: 'Quattrocento', serif;
     background-color: #FBEEC1;
     padding: 14px 25px;
-    text-align: center; 
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 12px;
@@ -62,4 +67,9 @@ h1 {
 
 .links a:hover {
     background-color: #BC986A;
+}
+
+.links {
+  text-decoration: none;
+  font-weight: 700;
 }
