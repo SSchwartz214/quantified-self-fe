@@ -77,6 +77,19 @@ h4 {
   cursor: pointer;
 }
 
+.remove-food-button {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(175, 76, 76);
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.remove-food-button:hover {
+  background-color: rgb(175, 76, 76);
+  cursor: pointer;
+}
+
 #meals-index-main {
   display: flex;
 }
