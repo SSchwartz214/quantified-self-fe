@@ -5,7 +5,7 @@ body, html {
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: 'Quattrocento', serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -25,6 +25,14 @@ td {
 
 tr:hover {
   background-color: #BDEDFF;
+}
+
+h2 {
+  font-family: 'Cinzel', serif;
+}
+
+h4 {
+  font-family: 'Quattrocento', serif;
 }
 
 .topnav {
