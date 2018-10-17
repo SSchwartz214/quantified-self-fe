@@ -64,6 +64,8 @@ h4 {
 }
 
 .button {
+  font-family: 'Quattrocento', serif;
+  font-weight: 700;
   background-color: #FBEEC1;
   width: 200px;
   height: 30px;
