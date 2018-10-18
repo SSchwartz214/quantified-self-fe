@@ -28,7 +28,7 @@ https://sschwartz214.github.io/quantified-self-fe/
 
 ## Running the Server Locally
 
-To see your code in action locally, you need to fire up a development server. Use the command:
+To see the code in action locally, you need to fire up a development server. Use the command:
 
 ```shell
 npm start
