@@ -101,6 +101,7 @@ tr:hover {
 #recipes-main-right {
   margin: 0px 20px 0px 20px;
   width: 90%;
+  text-align: center;
 }
 
 #generate-recipes-button{
@@ -108,4 +109,13 @@ tr:hover {
   width: 200px;
   font-size: 18px;
   box-shadow: 5px 5px grey;
+}
+
+#yummly-logo {
+  margin-left: 113%;
+  width: 200px;
+}
+
+#recipe-image {
+  text-align: center;
 }
