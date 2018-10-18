@@ -148,4 +148,8 @@ h3 {
 
 #edit-food-form{
   display: none;
- }
+}
+
+#foods {
+  margin-left: -20px;
+}
